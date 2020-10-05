@@ -29,4 +29,11 @@ html, body {
     text-align:center;
     flex-flow: wrap;
   }
+  .wrapper .us{
+    display: block;
+    max-width: 33%;
+}
+.wrapper .roles{
+    max-width: 66%;
+}
   
