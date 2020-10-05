@@ -25,9 +25,12 @@ html, body {
   .header img{
       text-align: right;
   }
+  
   .wrapper {
     text-align:center;
     flex-flow: wrap;
+    flex-wrap: wrap;
+    max-width: 960px;
   }
   .wrapper .us{
     display: block;
@@ -36,4 +39,10 @@ html, body {
 .wrapper .roles{
     max-width: 66%;
 }
-  
+@media only screen and (max-width: 1000px) {
+  .wrapper .us{
+    margin-bottom: 10px;
+    text-align:center;
+    flex-direction: column;
+  }
+  }
