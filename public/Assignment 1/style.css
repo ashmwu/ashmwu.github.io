@@ -25,3 +25,8 @@ html, body {
   .header img{
       text-align: right;
   }
+  .wrapper {
+    text-align:center;
+    flex-flow: wrap;
+  }
+  
