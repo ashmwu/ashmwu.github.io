@@ -8,7 +8,7 @@ html, body {
   }
   
   body {
-    background-color: rgb(255, 144, 249);
+    background-color: rgb(252, 164, 247);
     width: 70%;
     margin: 0 auto;
   }
@@ -22,6 +22,8 @@ html, body {
     text-align: left;
     vertical-align: center;
     justify-content: space-evenly;
+    margin-left: 0;
+    margin-right: 0;
   }
   .header img{
     display: inline;
@@ -48,7 +50,7 @@ html, body {
     max-width: 33%;
 }
 .wrapper p{
-  background-color: rgb(255, 253, 144);
+  background-color: rgb(255, 254, 221);
 }
 .wrapper img{
   max-width: 100px;
