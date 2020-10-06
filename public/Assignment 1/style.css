@@ -39,7 +39,7 @@ html, body {
     text-align:center;
     flex-flow: wrap;
     flex-wrap: wrap;
-    max-width: 960px;
+    
   }
   h2{
     font-family: 'Comfortaa', cursive;
@@ -56,6 +56,7 @@ html, body {
   border: 1px solid white;
 }
 .wrapper .roles{
+  max-width: 960px;
     max-width: 66%;
 }
 @media only screen and (max-width: 1000px) {
