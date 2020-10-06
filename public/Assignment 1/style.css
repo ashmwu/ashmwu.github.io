@@ -26,7 +26,7 @@ html, body {
   .header img{
     display: inline;
     align-items: right;
-    max-width: 33%;
+    max-width: 100px;
   }
   
   .wrapper {
@@ -49,7 +49,7 @@ html, body {
     max-width: 33%;
 }
 .wrapper img{
-  max-width: 100;
+  max-width: 100px;
   border-radius: 4px;
   border: 1px solid white;
 }
