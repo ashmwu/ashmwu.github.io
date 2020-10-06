@@ -15,7 +15,6 @@ html, body {
   }
   .header {
     display: flex;
-    margin-bottom: 15px;
     background-color: rgba(18, 111, 187, 0.5);
     font-family: 'Comfortaa', cursive;
     color: rgb(255, 209, 166);
@@ -24,6 +23,7 @@ html, body {
     text-align: left;
     vertical-align: center;
     justify-content: space-evenly;
+    width: auto;
   }
   .header img{
     display: inline;
@@ -51,7 +51,7 @@ html, body {
     max-width: 33%;
 }
 .wrapper img{
-  width: 33%;
+  max-width: 33%;
   border-radius: 4px;
   border: 1px solid white;
 }
