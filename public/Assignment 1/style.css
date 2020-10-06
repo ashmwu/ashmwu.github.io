@@ -9,7 +9,6 @@ html, body {
   
   body {
     width: 70%;
-    min-width: 800px;
     margin: 0 auto;
     background-color: #6091C3;
   }
@@ -23,7 +22,6 @@ html, body {
     text-align: left;
     vertical-align: center;
     justify-content: space-evenly;
-    width: auto;
   }
   .header img{
     display: inline;
