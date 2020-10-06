@@ -48,7 +48,7 @@ html, body {
 
   .wrapper .us{
     display: block;
-  
+    max-width:320px;
     max-width: 33%;
 }
 .wrapper p{
@@ -63,7 +63,8 @@ html, body {
 }
 .wrapper .roles{
   background-color: rgb(255, 254, 221);
-  
+  display: block;
+  max-width: 960px;
   max-width: 66%;
 }
 @media only screen and (max-width: 1000px) {
