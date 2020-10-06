@@ -45,9 +45,11 @@ html, body {
   }
 
   .wrapper .us{
-    background-color: rgb(255, 253, 144);
     display: block;
     max-width: 33%;
+}
+.wrapper p{
+  background-color: rgb(255, 253, 144);
 }
 .wrapper img{
   max-width: 100px;
@@ -55,7 +57,6 @@ html, body {
   border: 1px solid white;
 }
 .wrapper .roles{
-  background-color: rgb(255, 253, 144);
   max-width: 960px;
     max-width: 66%;
 }
