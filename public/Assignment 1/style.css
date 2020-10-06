@@ -26,8 +26,8 @@ html, body {
   }
   .header img{
     display: inline;
+    align-items: right;
     max-width: 33%;
-    text-align: right;
   }
   
   .wrapper {
