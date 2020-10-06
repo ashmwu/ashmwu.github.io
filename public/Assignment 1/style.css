@@ -19,7 +19,7 @@ html, body {
     background-color: rgba(18, 111, 187, 0.5);
     font-family: 'Comfortaa', cursive;
     color: rgb(255, 209, 166);
-
+    flex: 0 1 auto;
     flex-flow: row wrap;
     text-align: left;
     vertical-align: center;
