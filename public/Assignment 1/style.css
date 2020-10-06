@@ -17,7 +17,8 @@ html, body {
     margin-bottom: 15px;
     display: flex;
     background-color: rgba(18, 111, 187, 0.5);
-    color: rgb(255, 170, 91);
+    font-family: 'Comfortaa', cursive;
+    color: rgb(255, 209, 166);
     flex-flow: row wrap;
     text-align: left;
     vertical-align: center;
@@ -27,11 +28,19 @@ html, body {
   }
   
   .wrapper {
+    background-color: rgb(255, 144, 249);
+    font-family: 'Roboto Condensed', sans-serif;
+    color:  rgb(0, 65, 102);
     text-align:center;
     flex-flow: wrap;
     flex-wrap: wrap;
     max-width: 960px;
   }
+  h2{
+    font-family: 'Comfortaa', cursive;
+    color:  rgb(22, 5, 21);
+  }
+
   .wrapper .us{
     display: block;
     max-width: 33%;
@@ -41,8 +50,8 @@ html, body {
 }
 @media only screen and (max-width: 1000px) {
   .wrapper .us{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align:center;
-    flex-direction: column;
+    flex-direction: row;
   }
   }
