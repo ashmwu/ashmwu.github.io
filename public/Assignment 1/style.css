@@ -34,7 +34,7 @@ html, body {
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
     color:  rgb(0, 65, 102);
-    text-align:center;
+    align-items:center;
     flex-flow: wrap;
     flex-wrap: wrap;
     
@@ -59,7 +59,7 @@ html, body {
 .wrapper .roles{
   background-color: rgb(255, 253, 144);
   max-width: 960px;
-    max-width: 66%;
+  max-width: 66%;
 }
 @media only screen and (max-width: 1000px) {
   .wrapper .us{
